@@ -7,7 +7,7 @@
 // just a wrapper of vector, maybe come back and refresh manual memory 
 // allocation skills
 template<typename T>
-class stack {
+class Stack {
 public:
     void push(const T& value) {
         data_.push_back(value);
